@@ -14,6 +14,7 @@
 		1C35E8C72281D1A600A9A583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C35E8C52281D1A600A9A583 /* LaunchScreen.storyboard */; };
 		1C35E8CA2281D1A600A9A583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E8C92281D1A600A9A583 /* main.m */; };
 		1C35E8E52283D2B300A9A583 /* PushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E8E42283D2B300A9A583 /* PushNotificationManager.m */; };
+		1C35E8EC2284580B00A9A583 /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35E8EB2284580A00A9A583 /* CustomOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1C35E8C92281D1A600A9A583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C35E8E32283D2B300A9A583 /* PushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationManager.h; sourceTree = "<group>"; };
 		1C35E8E42283D2B300A9A583 /* PushNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationManager.m; sourceTree = "<group>"; };
+		1C35E8EA2284580A00A9A583 /* CustomOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		1C35E8EB2284580A00A9A583 /* CustomOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1C35E8E42283D2B300A9A583 /* PushNotificationManager.m */,
 				1C35E8BD2281D1A300A9A583 /* ViewController.h */,
 				1C35E8BE2281D1A300A9A583 /* ViewController.m */,
+				1C35E8EA2284580A00A9A583 /* CustomOperation.h */,
+				1C35E8EB2284580A00A9A583 /* CustomOperation.m */,
 				1C35E8C02281D1A300A9A583 /* Main.storyboard */,
 				1C35E8C32281D1A600A9A583 /* Assets.xcassets */,
 				1C35E8C52281D1A600A9A583 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 				1C35E8CA2281D1A600A9A583 /* main.m in Sources */,
 				1C35E8E52283D2B300A9A583 /* PushNotificationManager.m in Sources */,
 				1C35E8BC2281D1A300A9A583 /* AppDelegate.m in Sources */,
+				1C35E8EC2284580B00A9A583 /* CustomOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

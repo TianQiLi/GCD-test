@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PushNotificationManager.h"
+#import "CustomOperation.h"
 @interface ViewController ()
 
 @end
@@ -19,9 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self testForOperation];
     [PushNotificationManager localNotificationTest];
-    
-  
-    
 }
 
 - (void)testForOperation{
@@ -51,12 +49,14 @@
         NSLog(@"--5--%s---%@\n",__func__,[NSThread currentThread]);
     }];
     
-    
+    CustomOperation * cutomOp5 = [CustomOperation new];
+   
     [queue addOperation:invacationOP];
     [queue addOperation:invacationOP2];
     
     [queue addOperation:invacationOP3];
     [queue addOperation:blockOP4];
+    [queue addOperation:cutomOp5];
     
 }
 
